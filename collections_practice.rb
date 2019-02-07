@@ -24,3 +24,13 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  array.map.with_index do |item, x|
+    copieditem = item.to_s
+    copieditem[2] = "$"
+    puts copieditem
+  end
+end
+
+kesha_maker(["prawn", "shrimp", "kaiju"])
