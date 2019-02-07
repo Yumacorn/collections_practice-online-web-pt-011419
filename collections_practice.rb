@@ -27,9 +27,7 @@ end
 
 def kesha_maker(array)
   array.map.with_index do |item, x|
-    copieditem = item.to_s
-    copieditem[2] = "$"
-    puts copieditem
+    item[2] = "$"
   end
 end
 
