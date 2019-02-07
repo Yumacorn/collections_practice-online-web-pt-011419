@@ -22,7 +22,5 @@ def swap_elements_from_to(array, index, destination_index)
 end
 
 def reverse_array(array)
-  reversedarray = []
-  reversedarray << array.each {|element| array.shift}
-  reversedarray
+  array.reverse
 end
