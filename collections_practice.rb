@@ -46,5 +46,4 @@ end
 
 def add_s(array)
   array.map.with_index {|item, x| x != 1 ? item << "s"}
-
 end
