@@ -37,7 +37,7 @@ end
 def sum_array(array)
   sum = 0
   array.each do |item|
-    if item.is_i?
+    if item.is_a?(Integer)
       sum += item
     end
   end
