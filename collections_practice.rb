@@ -30,4 +30,7 @@ def kesha_maker(array)
   array
 end
 
-puts kesha_maker(["prawn", "shrimp", "kaiju"])
+def find_a(array)
+  array.select {|item| item[0] = "a"}
+
+end
