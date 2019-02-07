@@ -40,4 +40,5 @@ def sum_array(array)
     if item.is_i?
       sum += item
     end
+  sum
 end
