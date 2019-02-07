@@ -45,5 +45,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map.with_index {|item, x| x == 1 ? item << "s": item}
+  array.map.with_index {|item, x| x != 1 ? item << "s": item}
 end
