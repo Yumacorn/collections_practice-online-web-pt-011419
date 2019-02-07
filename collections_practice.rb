@@ -26,9 +26,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map.with_index do |item, x|
-    item[2] = "$"
-  end
+  array.map.with_index {|item, x| item[2] = "$"}
   puts array
 end
 
