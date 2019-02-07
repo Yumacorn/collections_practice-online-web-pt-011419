@@ -32,5 +32,5 @@ end
 
 def find_a(array)
   array.select {|item| item[0] = "a"}
-
+  array
 end
