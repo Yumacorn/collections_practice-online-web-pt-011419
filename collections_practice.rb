@@ -27,7 +27,6 @@ end
 
 def kesha_maker(array)
   array.map.with_index {|item, x| item[2] = "$"}
-  puts array
 end
 
 kesha_maker(["prawn", "shrimp", "kaiju"])
