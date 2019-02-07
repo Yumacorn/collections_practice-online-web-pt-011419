@@ -29,4 +29,4 @@ def kesha_maker(array)
   array.map.with_index {|item, x| item[2] = "$"}
 end
 
-kesha_maker(["prawn", "shrimp", "kaiju"])
+puts kesha_maker(["prawn", "shrimp", "kaiju"])
